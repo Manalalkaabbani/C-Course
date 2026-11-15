@@ -1,0 +1,130 @@
+WEBVTT
+
+0
+00:05.940 --> 00:12.460
+In this video we'll take a brief look at the history of C++ based on some major language milestones.
+
+1
+00:13.500 --> 00:19.640
+In the early 1970s Dennis Ritchie created the C programming language at Bell Labs.
+
+2
+00:19.710 --> 00:26.560
+The development of C was closely tied to the development of the Unix operating system, In 1979,
+
+3
+00:26.600 --> 00:30.840
+Bjarne Stroustrup started working on what became C++.
+
+4
+00:30.950 --> 00:33.500
+He initially called it C with classes.
+
+5
+00:33.650 --> 00:39.830
+His idea was to add to C object-oriented features that he knew from a language called Simula.
+
+6
+00:39.830 --> 00:47.820
+In 1983, the name was changed to C++ and the first commercial release was in 1989.  In 1998,
+
+7
+00:47.840 --> 00:55.460
+The C++ standards committee published the first C++ standard informally known as C++ 98.
+
+8
+00:55.460 --> 01:03.710
+Multiple issues with C++ 98 were addressed and the C++ 03 standard was released. Then in mid-2011 the
+
+9
+01:03.720 --> 01:12.020
+C++ 11 standard was released and then after that C++ 14 and C ++ 17.  As you can see C++
+
+10
+01:12.020 --> 01:14.540
+has been around for quite some time.
+
+11
+01:14.540 --> 01:18.390
+Notice that I've bolded and italicized the last three standards.
+
+12
+01:18.440 --> 01:24.000
+These standards are sort of a renaissance for C++ that changed the language going forward.
+
+13
+01:24.050 --> 01:29.130
+These changes are what modern C++ is all about. Generally C++
+
+14
+01:29.130 --> 01:37.410
+that's based on the language as defined before the C++ 11 standard is considered classical C++ and C++
+
+15
+01:37.410 --> 01:42.980
+based on C++ 11 and forward is considered Modern C++.
+
+16
+01:43.020 --> 01:44.750
+That's fine but what does that mean.
+
+17
+01:44.760 --> 01:51.840
+Well, modern C++ is a way of saying that it's C++ as defined today. With new ways of managing objects
+
+18
+01:51.840 --> 01:56.250
+and memory, lambdas, smart shared pointers, threading and more.
+
+19
+01:56.250 --> 02:02.010
+These terms may not mean anything to you yet,  but modern C++ feels like a new programming language when
+
+20
+02:02.010 --> 02:04.930
+compared to classical C++.
+
+21
+02:04.940 --> 02:11.930
+In fact, Bjarne Stroustrup described modern C++ as a new language, one with modern abstractions for ease
+
+22
+02:11.930 --> 02:18.680
+of use and power. Along with the language features themselves, modern C++ is also about best practices
+
+23
+02:18.860 --> 02:25.040
+and core guidelines and this course will be using modern C++. 
+As we go through the course.
+
+24
+02:25.040 --> 02:32.270
+I'll sometimes mention that this feature was introduced in C++ 11 or C++ 14 and so forth.
+
+25
+02:32.270 --> 02:37.060
+I'll do that for a few reasons, but the most important is that you know where to look for this feature
+
+26
+02:37.220 --> 02:41.320
+as your C++ studies continue after you've finished this course.
+
+27
+02:41.330 --> 02:45.540
+I'll also show you best practices and gotchas that you should be aware of.
+
+28
+02:45.710 --> 02:49.210
+If you're new to programming you may be wondering how all this works.
+
+29
+02:49.220 --> 02:52.030
+After all, it sometimes seems like magic.
+
+30
+02:52.130 --> 02:55.870
+How can we get a computer to do what we want it to do using a programming language.
+
+31
+02:56.030 --> 02:57.400
+Let's see in the next video.

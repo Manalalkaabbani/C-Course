@@ -1,0 +1,249 @@
+WEBVTT
+
+0
+00:05.700 --> 00:08.760
+Hola y bienvenidos a la programación de C ++.
+
+1
+00:08.970 --> 00:13.660
+Muchas gracias por inscribirse en este curso y confiar en el equipo de la Academia
+
+2
+00:13.660 --> 00:19.120
+de programación aprendida y en mí para su capacitación en este video. En este video, me gustaría presentarles el curso.
+
+3
+00:19.200 --> 00:21.350
+Pero primero me gustaría presentarme.
+
+4
+00:21.780 --> 00:25.160
+Mi nombre es Frank Mitropoulos y seré su instructor para este curso.
+
+5
+00:25.170 --> 00:27.380
+Se puede leer más sobre mí en la información del curso.
+
+6
+00:27.690 --> 00:31.710
+Pero quiero que esté seguro de que haré todo lo posible para asegurarme de que el
+
+7
+00:32.040 --> 00:34.700
+contenido del curso sea correcto, pertinente, comprensible y, con suerte, divertido.
+
+8
+00:35.070 --> 00:38.310
+He sido profesor de informática de la Universidad durante muchos años.
+
+9
+00:38.310 --> 00:44.310
+También trabajé en la industria como programador, ingeniero de software y gerente de proyectos. He enseñado a miles de
+
+10
+00:44.310 --> 00:50.700
+estudiantes en la Academia e industriale cómo programar usando muchas lenguajes de programación, pero C ++ es mi
+
+11
+00:50.700 --> 00:52.090
+lengua de programación favorita para enseñar.
+
+12
+00:52.140 --> 00:56.700
+Primero aprendí C ++ en 1988 y lo he usado desde entonces.
+
+13
+00:56.700 --> 01:00.930
+Eso fue hace mucho tiempo y C ++ ha evolucionado mucho desde entonces.
+
+14
+01:00.930 --> 01:03.170
+Estoy muy emocionado de enseñar este curso.
+
+15
+01:03.180 --> 01:07.320
+Espero que también esté emocionado de aprender C ++ en este curso.
+
+16
+01:07.320 --> 01:10.160
+Supongo que es completamente nuevo en C++.
+
+17
+01:10.290 --> 01:15.070
+También supongo que tiene poca o ninguna experiencia en programación con otras lenguajes de programación.
+
+18
+01:15.180 --> 01:17.580
+Si tiene experiencia en programación eso es genial.
+
+19
+01:17.580 --> 01:23.640
+Este curso es todavía para usted, ya que definitivamente aprenderá C ++. El currículo del curso se ha
+
+20
+01:23.640 --> 01:27.260
+desarrollado de una manera que introduce nuevos temas en un orden específico.
+
+21
+01:27.270 --> 01:32.970
+Se animo a seguir una sección a la vez antes de que se dé cuenta de que estará escribiendo
+
+22
+01:32.970 --> 01:35.890
+programas en C ++ que resuelven problemas en este curso.
+
+23
+01:35.900 --> 01:38.690
+Cubriré el C ++ moderno.
+
+24
+01:38.850 --> 01:43.350
+Hablaré más sobre exactamente qué es C ++ moderno a medida que avanzamos en el curso.
+
+25
+01:43.500 --> 01:48.350
+Pero tenga la seguridad de que aprenderá C ++ como debería ser usado hoy.
+
+26
+01:48.840 --> 01:53.400
+A lo largo de los años, he trabajado con muchos estudiantes y solo puedo recordar algunos que
+
+27
+01:53.400 --> 01:54.470
+simplemente no obtuvieron programación.
+
+28
+01:54.480 --> 01:58.480
+Sigo pensando que si lo intentaran un poco más duro que el programa, habría hecho clic en algún punto.
+
+29
+01:58.530 --> 02:02.490
+Si eres nuevo en la programación, en algún momento de este curso te sentirás frustrado.
+
+30
+02:02.490 --> 02:03.990
+Esto es perfectamente normal.
+
+31
+02:04.020 --> 02:07.330
+La programación es una habilidad que debe aprenderse y practicarse.
+
+32
+02:07.350 --> 02:08.920
+Tocas un instrumento musical.
+
+33
+02:09.060 --> 02:11.850
+¿Recuerdas cómo sonó la primera vez que jugaste?
+
+34
+02:11.850 --> 02:15.740
+¿Recuerdas que querías romper esa guitarra o un piano porque simplemente no podías conseguirlo?
+
+35
+02:15.750 --> 02:16.850
+La programación es similar.
+
+36
+02:16.950 --> 02:19.150
+Debes practicar en la práctica para mejorar.
+
+37
+02:19.260 --> 02:22.440
+Si se siente frustrado, tome un descanso y vuelva a intentarlo un poco más tarde.
+
+38
+02:22.440 --> 02:24.510
+Recuerda que todos hemos estado allí.
+
+39
+02:24.570 --> 02:29.760
+Todavía recuerdo que el primer programa que escribí fue en 1980 usando un lenguaje
+
+40
+02:29.760 --> 02:31.510
+de programación llamado Fortran 77.
+
+41
+02:31.950 --> 02:36.900
+Estaba tan emocionado que pude programar una computadora para hacer exactamente lo que quería que hiciera.
+
+42
+02:36.960 --> 02:38.520
+El programa fue bastante simple.
+
+43
+02:38.520 --> 02:43.980
+Pidió al usuario una cantidad en dólares estadounidenses y luego mostró cuántos cuartos de diez centavos y
+
+44
+02:43.980 --> 02:49.320
+centavos se necesitarían para acumular y dar la vuelta, haremos el mismo problema en este curso.
+
+45
+02:49.570 --> 02:51.790
+También recuerdo que me llevó un par.
+
+46
+02:51.960 --> 02:56.970
+Bueno, tal vez más de un par de intentos antes de que fuera correcto, pero el hombre fue una gran
+
+47
+02:56.970 --> 02:59.120
+sensación cuando se ejecutó correctamente en este curso.
+
+48
+02:59.160 --> 03:01.580
+Cada sección termina con un ejercicio de desafío.
+
+49
+03:01.590 --> 03:06.570
+Esto ayudará a reforzar los conceptos presentados en esta sección para ayudar a aprender el material.
+
+50
+03:06.570 --> 03:08.980
+Una vez que termines el desafío, no te detengas allí.
+
+51
+03:09.000 --> 03:09.920
+Retarte a ti mismo.
+
+52
+03:09.930 --> 03:14.590
+Propóngase problemas similares por su cuenta y resuélvalos, luego hágalo una y otra vez.
+
+53
+03:14.730 --> 03:15.440
+Hazlo divertido.
+
+54
+03:15.450 --> 03:17.150
+Haz tontos los problemas si quieres.
+
+55
+03:17.170 --> 03:20.220
+No importa, todo se trata de práctica.
+
+56
+03:20.220 --> 03:24.310
+Finalmente, si tiene alguna pregunta, pregúnteles en los foros.
+
+57
+03:24.360 --> 03:29.730
+Personalmente supervisaré los foros y responderé a las preguntas antes de publicar, aunque hojee las preguntas ya
+
+58
+03:29.730 --> 03:32.660
+respondidas, ya que su pregunta ya puede tener una respuesta.
+
+59
+03:33.150 --> 03:34.370
+Habla lo suficiente.
+
+60
+03:34.410 --> 03:36.090
+Espero trabajar con todos.
+
+61
+03:36.150 --> 03:37.900
+Comencemos aprendiendo C ++.
